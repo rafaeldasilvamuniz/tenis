@@ -44,9 +44,9 @@ body {
 footer p {
     background-color: #182C61;
     color: #ecf0f1;
-    padding: 50px 20px;
+    /*padding: 50px 20px;*/
 	text-align: center;
-	padding: 15px;
+	/*padding: 15px;*/
 	font-family: Helvetica, sans-serif;
 
 }
@@ -61,21 +61,14 @@ footer p {
 	float: right;
 }
 
-.conteudo-lateral {
+.conteudo-vertical {
 	background: white;
 	padding:10px;
 	margin-bottom: 20px;
 	
 }
 
-.postagem-lateral {
-	font-size: 0.8em;
-	padding: 5px;
-	border-bottom: 1px dotted #CCC;	
-	/*display: flex;*/
-}
-
-.postagem-lateral {
+.postagem-vertical {
 	font-size: 0.8em;
 	padding: 5px;
 	border-bottom: 1px dotted #CCC;	
@@ -151,11 +144,20 @@ h3 {
 	color: #565656;
 	background: #CCC;
 	padding: 5px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bolder;
 }
 
 .branco{
 	color: white;
 }
+
+#nome, #email, #cel,#area{
+	/*padding: 10px;*/
+	width: 650px;
+}
+
 
 .data-postagem {
 	font-size: 0.8em;
@@ -166,7 +168,7 @@ h3 {
 }
 
 @media screen and (min-width:641px) and (max-width: 1023px) {
-	.area-principal .area-lateral .conteudo-lateral .postagem-lateral .area-postagens{
+	.area-principal .area-lateral .conteudo-vertical .postagem-vertical .area-postagens{
 		max-width: 82%;
 		display: block;
 	}
@@ -174,14 +176,14 @@ h3 {
 }
 
 @media screen and (max-width: 640px) {
-	.area-principal .area-lateral .conteudo-lateral .postagem-lateral .area-postagens{
+	.area-principal .area-lateral .conteudo-vertical .postagem-vertical .area-postagens{
 		max-width: 82%;
 		display: block;
 	}
 }
 
 @media screen and (min-width:1024px) {
-	.area-principal .area-lateral .conteudo-lateral .postagem-lateral .area-postagens{
+	.area-principal .area-lateral .conteudo-vertical .postagem-vertical .area-postagens{
 		max-width: 82%;
 		display: block;
 	}
